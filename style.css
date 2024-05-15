@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.navbar .nav-link {
+    font-size: 1.1em;
+    margin-right: 15px;
+}
+
+.header,
+.hero {
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    color:  white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    margin-bottom: 30px;
+}
+
+.footer p {
+    margin-bottom: 20px;
+}
+
+.hero {
+    background: url('images/background.jpg') no-repeat center center/cover;
+}
+
+.hero .btn {
+    margin-top: 20px;
+    color: white;
+}
+
+.roadmap img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.testimonials .card {
+    margin-top: 20px;
+}
+
+.form-control, .btn {
+    max-width: 500px;
+    margin: auto;
+}
+
+.bg-light-green {
+    background-color: rgb(76, 150, 61);
+}
+
+.bg-light-purple {
+    background-color: rgb(76, 150, 61);
+}
+
+.footer {
+    padding-top: 30px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .d-flex {
+        flex-direction: column;
+    }
+}
+
+#about, #how-it-works, #benefits, #roadmap, #testimonials {
+    text-align: center;
+    margin: 0;
+}
+
+#about p, #how-it-works p, #benefits p {
+    max-width: 800px;
+    margin: auto;
+}
